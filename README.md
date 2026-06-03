@@ -23,6 +23,7 @@ Many market-data examples mix together data collection, cleaning, analysis, and 
 - CSV loading and saving helpers
 - Small sample-data examples
 - Beginner-focused documentation
+-  Beginner-safe examples that separate data analysis from trading logic
 
 ## Installation
 
