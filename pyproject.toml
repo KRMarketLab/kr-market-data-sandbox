@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kr-market-data-sandbox"
+version = "0.1.0"
+description = "Beginner-friendly keyless Python examples for public market-data workflows"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "KR Market Lab" }]
+dependencies = ["pandas>=2.0.0", "requests>=2.31.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0", "ruff>=0.4.0"]
+
+[project.scripts]
+kr-data = "kr_data_sandbox.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
