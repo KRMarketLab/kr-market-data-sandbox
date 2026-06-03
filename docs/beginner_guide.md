@@ -25,3 +25,6 @@ python examples/candle_cleaning_demo.py
 python examples/returns_demo.py
 kr-data sample --out sample_returns.csv
 ```
+## Next steps
+
+Future examples may cover Korean stock-market session handling, public CSV fixtures, and simple comparisons between local-market and global-market data.
